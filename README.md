@@ -4,9 +4,9 @@ This project aims to demonstrate how to integrate plugin-sonarqube with an iOS p
 
 ## Initialization
 
-Before starting, **you have to run a sonarqube instance with the ecoCode iOS plugin running**.
+Before starting, **you have to run a sonarqube instance with the ecoCode iOS plugin running**. Please follow the documentation: https://github.com/green-code-initiative/ecoCode-mobile/blob/main/INSTALL.md.
 
-Configure a project with the following properties:
+On the deployed SonarQube instance, configure a project with the following properties:
 
 * Project Key: ecoCodeTestiOS
 * Project name: ecoCodeTestiOS
