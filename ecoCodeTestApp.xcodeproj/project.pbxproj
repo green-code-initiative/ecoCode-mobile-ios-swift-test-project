@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63062B0029DD7CBD00D9FDD3 /* ChargeAwarenessCheckTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63062AFF29DD7CBD00D9FDD3 /* ChargeAwarenessCheckTest.swift */; };
 		89F0B3872988050100A7F601 /* ecoCodeTestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F0B3862988050100A7F601 /* ecoCodeTestAppApp.swift */; };
 		89F0B3892988050100A7F601 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F0B3882988050100A7F601 /* ContentView.swift */; };
 		89F0B38B2988050100A7F601 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F0B38A2988050100A7F601 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63062AFF29DD7CBD00D9FDD3 /* ChargeAwarenessCheckTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeAwarenessCheckTest.swift; sourceTree = "<group>"; };
 		89F0B3832988050100A7F601 /* ecoCodeTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ecoCodeTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F0B3862988050100A7F601 /* ecoCodeTestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecoCodeTestAppApp.swift; sourceTree = "<group>"; };
 		89F0B3882988050100A7F601 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63062AFE29DD7C9500D9FDD3 /* power */ = {
+			isa = PBXGroup;
+			children = (
+				63062AFF29DD7CBD00D9FDD3 /* ChargeAwarenessCheckTest.swift */,
+			);
+			path = power;
+			sourceTree = "<group>";
+		};
 		89F0B37A2988050000A7F601 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +83,7 @@
 		89F0B3962988063600A7F601 /* environment */ = {
 			isa = PBXGroup;
 			children = (
+				63062AFE29DD7C9500D9FDD3 /* power */,
 				89F0B3972988066E00A7F601 /* idleness */,
 			);
 			path = environment;
@@ -158,6 +169,7 @@
 			files = (
 				89F0B3892988050100A7F601 /* ContentView.swift in Sources */,
 				89F0B3952988056D00A7F601 /* IdleTimerDisabledTest.swift in Sources */,
+				63062B0029DD7CBD00D9FDD3 /* ChargeAwarenessCheckTest.swift in Sources */,
 				89F0B3872988050100A7F601 /* ecoCodeTestAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
