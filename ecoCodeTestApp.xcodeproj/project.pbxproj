@@ -7,22 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5711116929DDC8840061F65D /* BrightnessOverrideCheckTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711116829DDC8840061F65D /* BrightnessOverrideCheckTest.swift */; };
 		63062B0029DD7CBD00D9FDD3 /* ChargeAwarenessCheckTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63062AFF29DD7CBD00D9FDD3 /* ChargeAwarenessCheckTest.swift */; };
 		89F0B3872988050100A7F601 /* ecoCodeTestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F0B3862988050100A7F601 /* ecoCodeTestAppApp.swift */; };
 		89F0B3892988050100A7F601 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F0B3882988050100A7F601 /* ContentView.swift */; };
 		89F0B38B2988050100A7F601 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F0B38A2988050100A7F601 /* Assets.xcassets */; };
 		89F0B38E2988050100A7F601 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F0B38D2988050100A7F601 /* Preview Assets.xcassets */; };
-		89F0B3952988056D00A7F601 /* IdleTimerDisabledTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F0B3942988056D00A7F601 /* IdleTimerDisabledTest.swift */; };
+		89F0B3952988056D00A7F601 /* IdleTimerDisabledCheckTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F0B3942988056D00A7F601 /* IdleTimerDisabledCheckTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5711116829DDC8840061F65D /* BrightnessOverrideCheckTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightnessOverrideCheckTest.swift; sourceTree = "<group>"; };
 		63062AFF29DD7CBD00D9FDD3 /* ChargeAwarenessCheckTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeAwarenessCheckTest.swift; sourceTree = "<group>"; };
 		89F0B3832988050100A7F601 /* ecoCodeTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ecoCodeTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F0B3862988050100A7F601 /* ecoCodeTestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecoCodeTestAppApp.swift; sourceTree = "<group>"; };
 		89F0B3882988050100A7F601 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		89F0B38A2988050100A7F601 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89F0B38D2988050100A7F601 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		89F0B3942988056D00A7F601 /* IdleTimerDisabledTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdleTimerDisabledTest.swift; sourceTree = "<group>"; };
+		89F0B3942988056D00A7F601 /* IdleTimerDisabledCheckTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdleTimerDisabledCheckTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5711116729DDC82B0061F65D /* sobriety */ = {
+			isa = PBXGroup;
+			children = (
+				5711116829DDC8840061F65D /* BrightnessOverrideCheckTest.swift */,
+			);
+			path = sobriety;
+			sourceTree = "<group>";
+		};
 		63062AFE29DD7C9500D9FDD3 /* power */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +93,7 @@
 		89F0B3962988063600A7F601 /* environment */ = {
 			isa = PBXGroup;
 			children = (
+				5711116729DDC82B0061F65D /* sobriety */,
 				63062AFE29DD7C9500D9FDD3 /* power */,
 				89F0B3972988066E00A7F601 /* idleness */,
 			);
@@ -92,7 +103,7 @@
 		89F0B3972988066E00A7F601 /* idleness */ = {
 			isa = PBXGroup;
 			children = (
-				89F0B3942988056D00A7F601 /* IdleTimerDisabledTest.swift */,
+				89F0B3942988056D00A7F601 /* IdleTimerDisabledCheckTest.swift */,
 			);
 			path = idleness;
 			sourceTree = "<group>";
@@ -167,8 +178,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5711116929DDC8840061F65D /* BrightnessOverrideCheckTest.swift in Sources */,
 				89F0B3892988050100A7F601 /* ContentView.swift in Sources */,
-				89F0B3952988056D00A7F601 /* IdleTimerDisabledTest.swift in Sources */,
+				89F0B3952988056D00A7F601 /* IdleTimerDisabledCheckTest.swift in Sources */,
 				63062B0029DD7CBD00D9FDD3 /* ChargeAwarenessCheckTest.swift in Sources */,
 				89F0B3872988050100A7F601 /* ecoCodeTestAppApp.swift in Sources */,
 			);
