@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5711116929DDC8840061F65D /* BrightnessOverrideCheckTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711116829DDC8840061F65D /* BrightnessOverrideCheckTest.swift */; };
 		331133DF29DDC9170006C79D /* SaveModeAwarenessCheckTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331133DE29DDC9170006C79D /* SaveModeAwarenessCheckTest.swift */; };
 		33923C7529DDCC1700821F6F /* DisabledLocationUpdatesPauseCheckTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33923C7429DDCC1700821F6F /* DisabledLocationUpdatesPauseCheckTest.swift */; };
+		33DD6BD929E0206900F30347 /* RigidAlarmCheckTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DD6BD829E0206900F30347 /* RigidAlarmCheckTest.swift */; };
+		5711116929DDC8840061F65D /* BrightnessOverrideCheckTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711116829DDC8840061F65D /* BrightnessOverrideCheckTest.swift */; };
 		63062B0029DD7CBD00D9FDD3 /* ChargeAwarenessCheckTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63062AFF29DD7CBD00D9FDD3 /* ChargeAwarenessCheckTest.swift */; };
 		89F0B3872988050100A7F601 /* ecoCodeTestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F0B3862988050100A7F601 /* ecoCodeTestAppApp.swift */; };
 		89F0B3892988050100A7F601 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F0B3882988050100A7F601 /* ContentView.swift */; };
@@ -19,9 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5711116829DDC8840061F65D /* BrightnessOverrideCheckTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightnessOverrideCheckTest.swift; sourceTree = "<group>"; };
 		331133DE29DDC9170006C79D /* SaveModeAwarenessCheckTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveModeAwarenessCheckTest.swift; sourceTree = "<group>"; };
 		33923C7429DDCC1700821F6F /* DisabledLocationUpdatesPauseCheckTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisabledLocationUpdatesPauseCheckTest.swift; sourceTree = "<group>"; };
+		33DD6BD829E0206900F30347 /* RigidAlarmCheckTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RigidAlarmCheckTest.swift; sourceTree = "<group>"; };
+		5711116829DDC8840061F65D /* BrightnessOverrideCheckTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightnessOverrideCheckTest.swift; sourceTree = "<group>"; };
 		63062AFF29DD7CBD00D9FDD3 /* ChargeAwarenessCheckTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeAwarenessCheckTest.swift; sourceTree = "<group>"; };
 		89F0B3832988050100A7F601 /* ecoCodeTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ecoCodeTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F0B3862988050100A7F601 /* ecoCodeTestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecoCodeTestAppApp.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				89F0B3942988056D00A7F601 /* IdleTimerDisabledCheckTest.swift */,
+				33DD6BD829E0206900F30347 /* RigidAlarmCheckTest.swift */,
 			);
 			path = idleness;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				331133DF29DDC9170006C79D /* SaveModeAwarenessCheckTest.swift in Sources */,
 				33923C7529DDCC1700821F6F /* DisabledLocationUpdatesPauseCheckTest.swift in Sources */,
 				63062B0029DD7CBD00D9FDD3 /* ChargeAwarenessCheckTest.swift in Sources */,
+				33DD6BD929E0206900F30347 /* RigidAlarmCheckTest.swift in Sources */,
 				89F0B3872988050100A7F601 /* ecoCodeTestAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
