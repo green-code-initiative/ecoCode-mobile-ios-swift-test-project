@@ -1,35 +1,27 @@
-# Plugin SonarQube iOS Test Project
+Plugin SonarQube iOS Test Project
+---
 
 This project aims to demonstrate how to integrate plugin-sonarqube with an iOS project
 
-## Initialization
+Step 1 : prepare local environment
+---
 
-Before starting, **you have to run a sonarqube instance with the ecoCode iOS plugin running**. Please follow the documentation: https://github.com/green-code-initiative/ecoCode-mobile/blob/main/INSTALL.md.
+To launch local environment : please follow https://github.com/green-code-initiative/ecoCode/blob/main/INSTALL.md
+(especially SonarQube configuration part and get generated private token)
 
-On the deployed SonarQube instance, configure a project with the following properties:
+Step 2 : send Sonar metrics to local SonarQube
+---
 
-* Project Key: ecoCodeTestiOS
-* Project name: ecoCodeTestiOS
-* Save the project login key somewhere.
+```sh
+./tool_send_to_sonar.sh MY_SONAR_TOKEN
 
-Update the _sonar-project.properties_ file with the project login key:
+or
 
-```groovy
-sonar.projectKey=ecoCodeTestiOS
-sonar.projectName=ecoCodeTestiOS
-
-sonar.login=your_login_here
+mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.1.2184:sonar -Dsonar.login=MY_SONAR_TOKEN
 ```
 
-## Command line
+Step 3 : check errors
+---
 
-To run the project, just use the following command line from the project root:
-
-- On Windows:
-
-```
-sonar-scanner\sonar-scanner-4.7.0.2747-windows\bin\sonar-scanner.bat
-```
-
-Note that login and default sonarQube host can be overriden using _-Dsonar.host.url_ and _-Dsonar.login_ command line parameters.
-
+on local SonarQube, check if each file contains (or not) the rule error defined for this class
+(for example : you can search for tag `eco-design` rule on a special file)
